@@ -9,4 +9,4 @@
     android:initialLayout="@layout/widget_calendar_glass"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen"
-    android:description="@string/widget_calendar_desc" />
+    />

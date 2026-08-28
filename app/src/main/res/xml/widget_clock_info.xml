@@ -9,4 +9,4 @@
     android:initialLayout="@layout/widget_clock_glass"
     android:resizeMode="horizontal|vertical"
     android:widgetCategory="home_screen"
-    android:description="@string/widget_clock_desc" />
+    />
