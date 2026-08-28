@@ -2,46 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
-    android:gravity="center_vertical"
-    android:paddingStart="24dp"
-    android:paddingEnd="24dp"
-    android:paddingTop="18dp"
-    android:paddingBottom="18dp"
-    android:background="@drawable/glass_background">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp">
 
-    <AnalogClock
-        android:id="@+id/analog_clock"
-        android:layout_width="72dp"
-        android:layout_height="72dp" />
-
-    <LinearLayout
+    <TextClock
+        android:id="@+id/digital_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:orientation="vertical">
-
-        <TextClock
-            android:id="@+id/digital_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:format12Hour="HH:mm"
-            android:format24Hour="HH:mm"
-            android:textSize="34sp"
-            android:textColor="#FFFFFFFF"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-medium" />
-
-        <TextClock
-            android:id="@+id/digital_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:format12Hour="EEEE, d MMMM"
-            android:format24Hour="EEEE, d MMMM"
-            android:textSize="14sp"
-            android:textColor="#D9FFFFFF" />
-
-    </LinearLayout>
+        android:format12Hour="HH:mm"
+        android:format24Hour="HH:mm"
+        android:textSize="48sp"
+        android:textColor="#F2FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#66000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="6" />
 
 </LinearLayout>

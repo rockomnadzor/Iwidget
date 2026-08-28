@@ -4,8 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp"
-    android:background="@drawable/glass_background_square">
+    android:padding="8dp">
 
     <TextClock
         android:id="@+id/weekday"
@@ -13,8 +12,12 @@
         android:layout_height="wrap_content"
         android:format12Hour="EEEE"
         android:format24Hour="EEEE"
-        android:textSize="15sp"
-        android:textColor="#D9FFFFFF" />
+        android:textSize="14sp"
+        android:textColor="#D9FFFFFF"
+        android:shadowColor="#66000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="5" />
 
     <TextClock
         android:id="@+id/day_number"
@@ -22,18 +25,13 @@
         android:layout_height="wrap_content"
         android:format12Hour="d"
         android:format24Hour="d"
-        android:textSize="46sp"
+        android:textSize="42sp"
         android:textStyle="bold"
-        android:textColor="#FFFFFFFF"
-        android:fontFamily="sans-serif-medium" />
-
-    <TextClock
-        android:id="@+id/month"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:format12Hour="MMMM"
-        android:format24Hour="MMMM"
-        android:textSize="14sp"
-        android:textColor="#D9FFFFFF" />
+        android:textColor="#F2FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#66000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="6" />
 
 </LinearLayout>
