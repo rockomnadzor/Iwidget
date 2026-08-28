@@ -8,8 +8,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="2dp"
-        android:layout_marginStart="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="3dp"
         android:orientation="vertical"
         android:gravity="center">
 
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:format12Hour="EEEE"
             android:format24Hour="EEEE"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textColor="#3D000000" />
 
         <TextClock
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:format12Hour="d"
             android:format24Hour="d"
-            android:textSize="50sp"
+            android:textSize="72sp"
             android:textStyle="bold"
             android:textColor="#4D000000"
             android:fontFamily="sans-serif-medium" />
@@ -48,8 +48,8 @@
             android:layout_height="wrap_content"
             android:format12Hour="EEEE"
             android:format24Hour="EEEE"
-            android:textSize="16sp"
-            android:textColor="#B3FFFFFF" />
+            android:textSize="20sp"
+            android:textColor="#99FFFFFF" />
 
         <TextClock
             android:id="@+id/day_number"
@@ -57,9 +57,9 @@
             android:layout_height="wrap_content"
             android:format12Hour="d"
             android:format24Hour="d"
-            android:textSize="50sp"
+            android:textSize="72sp"
             android:textStyle="bold"
-            android:textColor="#99FFFFFF"
+            android:textColor="#66FFFFFF"
             android:fontFamily="sans-serif-medium" />
 
     </LinearLayout>

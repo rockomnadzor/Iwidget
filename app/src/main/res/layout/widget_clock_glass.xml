@@ -9,11 +9,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="2dp"
-        android:layout_marginStart="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="3dp"
         android:format12Hour="HH:mm"
         android:format24Hour="HH:mm"
-        android:textSize="56sp"
+        android:textSize="84sp"
         android:textColor="#4D000000"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium" />
@@ -25,8 +25,8 @@
         android:layout_gravity="center"
         android:format12Hour="HH:mm"
         android:format24Hour="HH:mm"
-        android:textSize="56sp"
-        android:textColor="#99FFFFFF"
+        android:textSize="84sp"
+        android:textColor="#66FFFFFF"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium" />
 
