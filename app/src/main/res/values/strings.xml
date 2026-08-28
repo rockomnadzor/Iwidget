@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Iwidget</string>
+    <string name="widget_clock_desc">Стеклянные часы для рабочего стола</string>
+    <string name="widget_date_desc">Стеклянный виджет с датой</string>
+</resources>
