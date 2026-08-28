@@ -13,12 +13,12 @@
         android:format12Hour="HH:mm"
         android:format24Hour="HH:mm"
         android:textSize="48sp"
-        android:textColor="#F2FFFFFF"
+        android:textColor="#66FFFFFF"
         android:textStyle="bold"
         android:fontFamily="sans-serif-medium"
-        android:shadowColor="#66000000"
+        android:shadowColor="#4D000000"
         android:shadowDx="0"
         android:shadowDy="1"
-        android:shadowRadius="6" />
+        android:shadowRadius="4" />
 
 </LinearLayout>

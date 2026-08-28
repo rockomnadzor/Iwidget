@@ -13,11 +13,11 @@
         android:format12Hour="EEEE"
         android:format24Hour="EEEE"
         android:textSize="14sp"
-        android:textColor="#D9FFFFFF"
-        android:shadowColor="#66000000"
+        android:textColor="#4DFFFFFF"
+        android:shadowColor="#4D000000"
         android:shadowDx="0"
         android:shadowDy="1"
-        android:shadowRadius="5" />
+        android:shadowRadius="3" />
 
     <TextClock
         android:id="@+id/day_number"
@@ -27,11 +27,11 @@
         android:format24Hour="d"
         android:textSize="42sp"
         android:textStyle="bold"
-        android:textColor="#F2FFFFFF"
+        android:textColor="#66FFFFFF"
         android:fontFamily="sans-serif-medium"
-        android:shadowColor="#66000000"
+        android:shadowColor="#4D000000"
         android:shadowDx="0"
         android:shadowDy="1"
-        android:shadowRadius="6" />
+        android:shadowRadius="4" />
 
 </LinearLayout>
