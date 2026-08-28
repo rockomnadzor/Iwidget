@@ -34,6 +34,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.glass.widget.app.model.WidgetItem
+import com.glass.widget.app.widgets.CalendarGlassWidget
 import com.glass.widget.app.widgets.ClockGlassWidget
 import com.glass.widget.app.widgets.InfoGlassWidget
 
@@ -63,6 +64,11 @@ fun WidgetGalleryScreen(context: Context) {
             title = "Дата",
             subtitle = "Компактный стеклянный виджет с числом и днём недели",
             provider = ComponentName(context, InfoGlassWidget::class.java)
+        ),
+        WidgetItem(
+            title = "Календарь",
+            subtitle = "Сетка на месяц, ширина как у виджета «Часы»",
+            provider = ComponentName(context, CalendarGlassWidget::class.java)
         )
     )
 
